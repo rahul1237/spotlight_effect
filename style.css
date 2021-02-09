@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main_box,.img,.mouse{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main_box{
+    cursor: none;
+}
+
+.img,.mouse{
+    background-image: url('./img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img{
+    filter: brightness(10%);
+}
+
+.mouse{
+    clip-path: circle(5em at 0,0);
+}
